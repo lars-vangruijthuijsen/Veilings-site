@@ -1,0 +1,54 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding-top: 40px;
+    color: var(--textColor-white);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--default-purple);
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 200;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.socials li {
+    margin: 0 15px;
+}
+
+.socials a i {
+    font-size: 2rem;
+    color: var(--textColor-white);
+}
+
+.copyright {
+    margin-left: 20px;
+}
+
+/* Existing styles remain unchanged */
+
