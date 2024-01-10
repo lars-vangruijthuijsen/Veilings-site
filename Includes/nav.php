@@ -1,8 +1,6 @@
-
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">Navbar</a>
+        <a class="navbar-brand" href="index.php">Naam</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,7 +19,7 @@
         </div>
         <div class="btn-group ms-auto">
             <button type="button" class="btn btn-secondary">
-                <a href="Login/login.php" style="text-decoration: none; color: inherit;">Login</a>
+                <a href="Login/login-user.php" style="text-decoration: none; color: inherit;">Login</a>
             </button>
             <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
