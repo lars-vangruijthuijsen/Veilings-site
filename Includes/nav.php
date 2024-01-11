@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">Naam</a>
+        <a class="navbar-brand" href="index.php">Lorem</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,28 +25,28 @@
                 <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="Login/register.php">Register</a></li>
-                <li><a class="dropdown-item" href="#">iets 2</a></li>
-                <li><a class="dropdown-item" href="#">hier is een menu keuze optie</a></li>
+                <li><a class="dropdown-item" href="Login/register.php">lorem</a></li>
+                <li><a class="dropdown-item" href="#">lorem</a></li>
+                <li><a class="dropdown-item" href="#">lorem</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
+                <li><a class="dropdown-item" href="#">register/logout</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <?php
-// Start the session
-session_start();
-
-// Check if the 'user_id' session variable is set
-if (isset($_SESSION['user_id'])) {
-    // User is logged in
-    echo "User is logged in. User ID: " . $_SESSION['user_id'];
-} else {
-    // User is not logged in
-    echo "User is not logged in";
-}
+//// Start the session
+//session_start();
+//
+//// Check if the 'user_id' session variable is set
+//if (isset($_SESSION['user_id'])) {
+//    // User is logged in
+//    echo "User is logged in. User ID: " . $_SESSION['user_id'];
+//} else {
+//    // User is not logged in
+//    echo "User is not logged in";
+//}
 ?>
 
 

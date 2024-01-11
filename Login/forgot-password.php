@@ -12,8 +12,8 @@
         <div class="row">
             <div class="col-md-4 offset-md-4 form">
                 <form action="forgot-password.php" method="POST" autocomplete="">
-                    <h2 class="text-center">Forgot Password</h2>
-                    <p class="text-center">Enter your email address</p>
+                    <h2 class="text-center">Wachtwoord vergeten</h2>
+                    <p class="text-center">Vul je e-mailadres in</p>
                     <?php
                         if(count($errors) > 0){
                             ?>
@@ -28,10 +28,10 @@
                         }
                     ?>
                     <div class="form-group">
-                        <input class="form-control" type="email" name="email" placeholder="Enter email address" required value="<?php echo $email ?>">
+                        <input class="form-control" type="email" name="email" placeholder="Vul email adres in" required value="<?php echo $email ?>">
                     </div>
                     <div class="form-group">
-                        <input class="form-control button" type="submit" name="check-email" value="Continue">
+                        <input class="form-control button" type="submit" name="check-email" value="Doorgaan">
                     </div>
                 </form>
             </div>
